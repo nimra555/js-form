@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="google-container">
+        <img src="googlelogo_color).png" alt="Google" width="100px">
+        <h2>Sign in to Chrome</h2>
+        <p>Sign in with your Google Account to get your bookmarks, history, passwords, and other settings on all your
+            devices
+        </p>
+    </div>
+    <div class="floating-label" name="form1">
+      <form action="#" method="get">  
+        <input class="floating-input" type="text" placeholder=" " id="email" name="email">
+        <label>Email or phone</label>
+        <p id="email-output"></p>
+        <p class="blue">Forgot email?</p>
+        <p>Not your computer? Use Guest mode to sign in privately</p>
+        <p class="blue">Learn more</p>
+        <span class="blue">Creat account</span>
+        <button onclick="inputEmail()" id="login">Next</button>
+      </form>  
+    </div>
+  </div>  
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+
+.main{
+    border: 1px solid black;
+    border-radius: 10px; 
+    padding: 20px;
+}
+.blue{
+    color: rgb(26,115,233);
+}
+#login{
+    background-color:rgb(26,115,233);
+    color: white;
+    padding:10px 20px;
+    margin-left: 30px;
+    border: 1px solid rgb(26,115,233);
+    border-radius: 5px;
+}
+#passwd-login{
+    background-color: rgb(26,115,233);
+    color: white;
+    padding:10px 20px;
+    margin-left: 30px;
+    border: 1px solid rgb(26,115,233);
+}
+#login , #passwd-login:hover{
+    cursor: pointer;
+}
+.floating-label { 
+    position:relative; 
+    margin-bottom:20px; 
+}
+  
+.floating-input  {
+    font-size:14px;
+    padding:4px 4px;
+    display:block;
+    width:180px;
+    height:30px;
+    background-color: transparent;
+    border:none;
+    border-bottom:1px solid rgb(26,115,233);
+}
+  
+.floating-input:focus , .floating-select:focus {
+       outline:none;
+       border-bottom:2px solid rgb(26,115,233); 
+}
+label { 
+    color: rgb(26,115,233);
+    font-size:14px;
+    font-weight:normal;
+    position:absolute; 
+    pointer-events:none;
+    left:30px;
+    top:22px;
+    transition:0.2s ease all; 
+    -moz-transition:0.2s ease all; 
+    -webkit-transition:0.2s ease all;
+  }
+  
+.floating-input:focus ~ label, .floating-input:not(:placeholder-shown) ~ label {
+    top:-18px;
+    font-size:14px;
+    color:rgb(26,115,233);
+}
+  
+.floating-select:focus ~ label , .floating-select:not([value=""]):valid ~ label {
+    top:-18px;
+    font-size:14px;
+    color:rgb(26,115,233);
+  }
+  
+.floating-input:focus ~ .bar:before, .floating-input:focus ~ .bar:after, .floating-select:focus ~ .bar:before, .floating-select:focus ~ .bar:after {
+    width:50%;
+} 
+
+.container{
+    text-align: center;
+}
+
+.container h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: blue;
+}
+.container a{
+    text-decoration: none;
+    color: blue;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.container a:hover{
+    /* text-decoration: underline; */
+    border-bottom: 2px solid black;
+}
+.container h3{
+    font-weight: 800;
+    font-size: 30px;
+}
